@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html;charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="/wiki/css/gollum.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/wiki/css/editor.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/wiki/css/dialog.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/wiki/css/template.css" media="all">
+  
+
+  <!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" href="/wiki/css/ie7.css" media="all">
+  <![endif]-->
+
+  <script>
+      var baseUrl = '/wiki';
+      var pageFullPath = 'documentation/01-Downloads';
+  </script>
+  <script type="text/javascript" src="/wiki/javascript/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="/wiki/javascript/mousetrap.min.js"></script>
+  <script type="text/javascript" src="/wiki/javascript/gollum.js"></script>
+  <script type="text/javascript" src="/wiki/javascript/gollum.dialog.js"></script>
+  <script type="text/javascript" src="/wiki/javascript/gollum.placeholder.js"></script>
+  <script type="text/javascript" src="/wiki/javascript/editor/gollum.editor.js"></script>
+
+  <script type="text/javascript" src="/wiki/custom.js"></script>
+
+  <title>documentation/01 Downloads</title>
+</head>
+<body>
+
+<script>
+Mousetrap.bind(['e'], function( e ) {
+  e.preventDefault();
+  window.location = "/edit" + window.location.pathname;
+  return false;
+});
+</script>
+<div id="wiki-wrapper" class="page">
+<div id="head">
+  <h1>documentation/01 Downloads</h1>
+  <ul class="actions">
+    <li class="minibutton">
+      <div id="searchbar">
+        <form action="/wiki/search" method="get" id="search-form">
+        <div id="searchbar-fauxtext">
+          <input type="text" name="q" id="search-query" value="Search&hellip;" autocomplete="off">
+          <a href="#" id="search-submit" title="Search this wiki">
+            <span>Search</span>
+          </a>
+        </div>
+        </form>
+      </div>    </li>
+    <li class="minibutton"><a href="/wiki/"
+       class="action-home-page">Home</a></li>
+    <li class="minibutton"><a href="/wiki/pages"
+      class="action-all-pages">All</a></li>
+    <li class="minibutton"><a href="/wiki/fileview"
+    class="action-fileview">Files</a></li>
+    <li class="minibutton jaws">
+      <a href="#" id="minibutton-new-page">New</a></li>
+    <li class="minibutton jaws">
+      <a href="#" id="minibutton-rename-page">Rename</a></li>
+    <li class="minibutton"><a href="/wiki/edit/documentation/01-Downloads"
+       class="action-edit-page">Edit</a></li>
+    <li class="minibutton"><a href="/wiki/history/documentation/01-Downloads"
+       class="action-page-history">History</a></li>
+  </ul>
+</div>
+<div id="wiki-content">
+<div class="">
+  <div id="wiki-body" class="gollum-markdown-content">
+    <div class="markdown-body">
+      <h2>Downloads<a class="anchor" id="Downloads" href="#Downloads"></a></h2>
+
+<p>The Crosswalk project provides binaries for multiple operating systems and platforms. See the links provided below for detailed per-operating system installation instructions.</p>
+
+<h3>Beta Release<a class="anchor" id="Beta-Release" href="#Beta-Release"></a></h3>
+
+<p>Crosswalk 1.29.4.1 - <strong>Beta Build</strong></p>
+
+<p><strong>NOTE:</strong>
+This is a Beta stabilization build of Crosswalk. The Beta channel is where Crosswalk is stabilized for an eventual Stable 
+release. Only bug fixes go into the Beta channel; new feature development occurs in the minimally tested Canary releases.</p>
+
+<p>See <a href="#wiki/Release-methodology">Release Methodology</a> for a description of the Crosswalk release cycle and channel descriptions.</p>
+
+<h3>Files<a class="anchor" id="Files" href="#Files"></a></h3>
+
+<table width="100%"><thead><tr><td>Platform</td><td>Latest Version</td><td>Instructions</td></tr></thead><tbody><tr><td>Android</td><td><a href="https://download.01.org/crosswalk/releases/android/beta/crosswalk-1.29.4.1.zip">crosswalk-1.29.4.1.zip</a></td>
+<td><a href="#documentation/installing_crosswalk/android">Installation</a></td></tr><tr><td>Tizen</td><td><a href="https://download.01.org/crosswalk/releases/tizen/beta/crosswalk-1.29.4.1-0.i586.rpm">crosswalk-1.29.4.1-0.i586.rpm</a></td><td><a href="#documentation/installing_crosswalk/tizen">Installation</a></td></tr><tr><td>Tizen</td><td><a href="https://download.01.org/crosswalk/releases/tizen/beta/crosswalk-emulator-support-1.29.4.1-0.i586.rpm">crosswalk-emulator-support-1.29.4.1-0.i586.rpm</a></td><td><a href="#documentation/installing_crosswalk/tizen">Installation</a></td></tr><tr><td>Tizen</td><td><a href="https://download.01.org/crosswalk/releases/tizen/canary/tizen-extensions-crosswalk-0.3-0.i586.rpm">tizen-extensions-crosswalk-0.3-0.i586.rpm</a></td><td><a href="#documentation/installing_crosswalk/tizen">Installation</a></td></tr></tbody></table><p><a href="https://download.01.org/crosswalk/releases/">More releases...</a></p>
+
+<p>Information on the <a href="#wiki/Release-methodology">Release Channels</a>.</p>
+
+<h2>Tizen Features<a class="anchor" id="Tizen-Features" href="#Tizen-Features"></a></h2>
+
+<ul><li>Basic application launcher with manifest support. See <a href="#wiki/Crosswalk-manifest">Crosswalk Manifest</a>.</li>
+<li>Initial Extension System model defined and implemented. See <a href="#wiki/Crosswalk-extensions">Crosswalk Extensions</a>.</li>
+<li>Selected Tizen 2.x Web APIs implemented: Bluetooth, Notification, 
+Power, Time, System Settings, System Information, Download. See 
+<a href="https://github.com/crosswalk-project/tizen-extensions-crosswalk/wiki/APIs">Tizen Extensions Crosswalk APIs</a>.</li>
+</ul><h2>Android Features<a class="anchor" id="Android-Features" href="#Android-Features"></a></h2>
+
+<ul><li>Basic application launcher with manifest support. See <a href="#wiki/Crosswalk-manifest">Crosswalk Manifest</a>.</li>
+<li>Initial Extension System model defined and implemented. See <a href="#wiki/Crosswalk-extensions">Crosswalk Extensions</a>.</li>
+</ul><h2>Repository Information<a class="anchor" id="Repository-Information" href="#Repository-Information"></a></h2>
+
+<p>Version 1.29.4.1 of Crosswalk is based on the Chromium content module from
+upstream version:
+</p><div class="highlight"><pre><span class="mf">29.0.1547.57</span> <span class="n">sha1</span> <span class="n">id</span><span class="o">:</span> <span class="mf">38e877</span><span class="n">d7523268fcd04b39599ff86100e8214083</span>
+</pre></div>
+    </div>
+  </div>
+  </div>
+
+</div>
+<div id="footer">
+  <p id="last-edit">Last edited by <b>James Ketrenos</b>, 2013-09-26 10:56:57</p>
+  <p>
+    <a id="delete-link" href="/wiki/documentation/01-Downloads" data-confirm="Are you sure you want to delete this page?"><span>Delete this Page</span></a>
+  </p>
+</div>
+</div>
+
+<form name="rename" method="POST" action="/wiki/rename/documentation/01-Downloads">
+  <input type="hidden" name="rename"/>
+  <input type="hidden" name="message"/>
+</form>
+
+
+</body>
+</html>
